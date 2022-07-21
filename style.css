@@ -1,0 +1,111 @@
+
+body{
+    background-color: #775bf1;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh; 
+
+}
+
+.input{
+    border: none;
+    height: 3.66rem;
+    font-size: 1.3rem;
+    width: 0;
+    padding: 0;
+    outline: none;
+    /* display: none; */
+    transition: width 0.3s ease;
+    /* color: black; */
+}
+
+.btn{
+    height: 3.67rem;
+    border: none;
+    width: 4rem;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    /* background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent; */
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    background-color: cadetblue;
+    /* color: white; */
+    /* background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent; */
+    
+}
+
+.active{
+    width: 300px;
+    padding-left: 11px;
+    /* background-color: cadetblue; */
+    /* background-color: rgb(143, 87, 183); */
+    /* text-emphasis-color: black; */
+    /* background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: whitesmoke; */
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%;
+
+}
+
+.image:hover{
+    background-image: linear-gradient(to left, violet, indigo, yellow, green, blue, orange, red);
+    transform: scale(0.7);
+    cursor: pointer;
+}
+
+.header{
+    margin-left: 20%;
+    display: flex;
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.mail{
+    margin-left: 82%;
+}
+
+.mail:hover{
+    /* color: rgb(26, 46, 5); */
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    transform: scale(1.2);
+}
+
+.txt{
+    margin-left: 1.5rem;
+}
+
+.txt:hover{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    transform: scale(1.2);
+}
+
+.icon{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.icon:hover{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    transform: scale(1.2);
+}
